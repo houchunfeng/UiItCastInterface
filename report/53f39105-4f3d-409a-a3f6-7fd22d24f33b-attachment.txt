@@ -1,0 +1,2 @@
+api_app.py                  32 INFO     正在调用APP的登录的方法，手机号：13812345678验证码246810
+tools_inter.py              18 INFO     正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.T2G21lplqt5PY-IJCnMa2Wc9m_lDrZgcEvRRtQIeGkI

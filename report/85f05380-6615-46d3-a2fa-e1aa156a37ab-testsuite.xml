@@ -1,0 +1,143 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1578919213638" stop="1578919215549">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1578919213638" status="passed" stop="1578919213837">
+      <description>
+        登录测试方法
+        :param mobile: 手机号
+        :param code: 验证码
+        :return:
+        </description>
+      <name>test01_mp.TestMp.test01_mp_login[13812345678-246810]</name>
+      <attachments>
+        <attachment source="8a5bbde5-c5e6-4f37-b4bd-1f025a551a9a-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="fbe47386-c549-4208-a8c7-fb0f113c6b0b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919213847" status="passed" stop="1578919214689">
+      <description>
+        发布文章测试用例
+        :param title: 文章标题
+        :param content: 文章内容
+        :param channel_id:
+        :param channel_name:
+        :return:
+        </description>
+      <name>test01_mp.TestMp.test02_mp_article[55555-55555-7-\u6570\u636e\u5e93]</name>
+      <attachments>
+        <attachment source="9c8ce854-2b99-4c4e-a264-a33e159f563b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919214699" status="passed" stop="1578919214839">
+      <description>
+        管理员 登录测试方法
+        :param account: 管理员账号
+        :param pwd: 密码
+        :return:
+        </description>
+      <name>test02_mis.TestMis.test01_mis_login[testid-testpwd123]</name>
+      <attachments>
+        <attachment source="1dc772cd-d159-4f09-8264-9120f24e01d8-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="43af19f2-9b76-4a18-9082-4df2c3a3bbc8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919214839" status="passed" stop="1578919215309">
+      <description>
+        查询文章测试用例
+        :return:
+        </description>
+      <name>test02_mis.TestMis.test02_mis_search</name>
+      <attachments>
+        <attachment source="94cc7ee9-d726-47b3-9883-23d7363d4f3b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919215319" status="passed" stop="1578919215389">
+      <description>
+        审核文章测试用例
+        :return:
+        </description>
+      <name>test02_mis.TestMis.test03_mis_audit</name>
+      <attachments>
+        <attachment source="9867ee07-aec7-4430-9cc6-1b5af4fec85c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919215399" status="passed" stop="1578919215439">
+      <description>
+        app登录测试用例
+        :return:
+        </description>
+      <name>test03_app.TestApp.test01_app_login</name>
+      <attachments>
+        <attachment source="44d18e37-e673-4e44-9ada-7e20bf9ff518-attachment.txt" title="Captured log setup" type="text/plain"/>
+        <attachment source="53f39105-4f3d-409a-a3f6-7fd22d24f33b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1578919215439" status="passed" stop="1578919215549">
+      <description>
+        app查询文章的测试用例
+        :return:
+        </description>
+      <name>test03_app.TestApp.test02_app_search</name>
+      <attachments>
+        <attachment source="5b4adf13-4632-4394-b1bf-2d20ede47275-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16792-MainThread"/>
+        <label name="host" value="SC-201910121602"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

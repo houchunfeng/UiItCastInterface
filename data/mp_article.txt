@@ -1,0 +1,2 @@
+title,content,channel_id,channel_name
+55555,55555,7,数据库

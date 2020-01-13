@@ -1,0 +1,13 @@
+api：资源接口的调用封装
+data：存储测试数据文件
+log：日志
+report：报告
+scripts：脚本业务层
+tools：工具类
+config.py：公共路径
+pytest.ini：配置文件
+
+
+xml报告生成html报告
+allure generate report/ -o allure-reports/
+

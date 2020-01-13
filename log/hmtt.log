@@ -1,0 +1,109 @@
+2020-01-13 14:39:28,393 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 14:39:28,393 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 14:39:28,393 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 14:39:50,430 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json'}
+2020-01-13 14:42:42,591 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 14:42:42,591 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 14:42:42,591 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 14:42:42,641 INFO [root] [tools_inter.py (get_token:13] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MDUwNjAsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.hDtvQ6K1rzmBwwadzwcDfnTftVIRj9Q83YV9yXJJR4o
+2020-01-13 14:42:42,651 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MDUwNjAsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.hDtvQ6K1rzmBwwadzwcDfnTftVIRj9Q83YV9yXJJR4o'}
+2020-01-13 16:17:48,359 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 16:17:48,359 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:17:48,359 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:17:48,359 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 16:17:48,539 INFO [root] [tools_inter.py (get_token:13] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTA3NjcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.zGq6-KhuBnVTrYA12l7iR_Ji6GhKEfO05yQAceFM97w
+2020-01-13 16:25:42,929 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 16:25:42,929 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:25:42,929 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:25:42,939 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 16:25:43,099 INFO [root] [tools_inter.py (get_token:13] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEyNDAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.GXPRq9GCbJMCDZXPlHgg8wknMJErHgag7x2iUcnt2bM
+2020-01-13 16:25:43,119 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEyNDAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.GXPRq9GCbJMCDZXPlHgg8wknMJErHgag7x2iUcnt2bM'}
+2020-01-13 16:25:43,556 ERROR [root] [tools_inter.py (assert_common:27] - 
+2020-01-13 16:25:43,666 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [None], 'status': 2}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEyNDAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.GXPRq9GCbJMCDZXPlHgg8wknMJErHgag7x2iUcnt2bM'}
+2020-01-13 16:27:00,768 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 16:27:00,768 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:27:00,768 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:27:00,768 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 16:27:00,928 INFO [root] [tools_inter.py (get_token:13] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEzMjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.809o3u6f1aOJg1MeaqjNhVHOahJ_ek3kLXhG0tNkWbY
+2020-01-13 16:27:00,938 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEzMjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.809o3u6f1aOJg1MeaqjNhVHOahJ_ek3kLXhG0tNkWbY'}
+2020-01-13 16:27:01,433 ERROR [root] [tools_inter.py (assert_common:27] - 
+2020-01-13 16:27:01,563 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [None], 'status': 2}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTEzMjAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.809o3u6f1aOJg1MeaqjNhVHOahJ_ek3kLXhG0tNkWbY'}
+2020-01-13 16:49:42,505 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 16:49:42,505 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:49:42,505 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 16:49:42,515 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 16:49:42,675 INFO [root] [tools_inter.py (get_token:13] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTI2ODAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.jq62JQcsyiPwZreQt3BDP9PI4942dEgmPJs0yhpIvdU
+2020-01-13 16:49:42,705 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTI2ODAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.jq62JQcsyiPwZreQt3BDP9PI4942dEgmPJs0yhpIvdU'}
+2020-01-13 16:49:43,135 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [None], 'status': 2}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTI2ODAsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.jq62JQcsyiPwZreQt3BDP9PI4942dEgmPJs0yhpIvdU'}
+2020-01-13 17:48:51,114 INFO [root] [api_app.py (__init__:18] - 正在初始化APP登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-13 17:48:51,114 INFO [root] [api_app.py (__init__:21] - 正在初始化频道新闻推荐url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-13 17:48:51,114 INFO [root] [api_app.py (api_app_login:32] - 正在调用APP的登录的方法，手机号：13812345678验证码246810
+2020-01-13 17:48:51,304 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTYyMzAsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.FBLjrhnv7b_oqMlCAWeXIAwfoMDw0lUPEXdoLUzBIbg
+2020-01-13 17:48:51,314 INFO [root] [api_app.py (api_app_search:45] - 正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578908931, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTYyMzAsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.FBLjrhnv7b_oqMlCAWeXIAwfoMDw0lUPEXdoLUzBIbg'}
+2020-01-13 17:51:47,899 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 17:51:47,899 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 17:51:47,899 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 17:51:47,949 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MDcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.33ha0mGR0K1hTNS9OibKQX-gvulCuZfrU8Qi9LWqGsQ
+2020-01-13 17:51:47,959 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MDcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.33ha0mGR0K1hTNS9OibKQX-gvulCuZfrU8Qi9LWqGsQ'}
+2020-01-13 17:51:59,663 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 17:51:59,663 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 17:51:59,673 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 17:51:59,713 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CTZWZcMrfcixfkolh3GCIHF_MyU-rh0KZMZWoNiDuVU
+2020-01-13 17:51:59,723 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CTZWZcMrfcixfkolh3GCIHF_MyU-rh0KZMZWoNiDuVU'}
+2020-01-13 17:51:59,773 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 17:51:59,773 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 17:51:59,773 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 17:51:59,773 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.CTZWZcMrfcixfkolh3GCIHF_MyU-rh0KZMZWoNiDuVU'}
+2020-01-13 17:51:59,923 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Q4RjakDIU7633ouDSK1pD0h2xEB9Rt17A3yhUL_qn1I
+2020-01-13 17:51:59,933 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Q4RjakDIU7633ouDSK1pD0h2xEB9Rt17A3yhUL_qn1I'}
+2020-01-13 17:52:00,343 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [1216659557078532096], 'status': 2}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTcsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.Q4RjakDIU7633ouDSK1pD0h2xEB9Rt17A3yhUL_qn1I'}
+2020-01-13 17:52:00,423 INFO [root] [api_app.py (__init__:18] - 正在初始化APP登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-13 17:52:00,423 INFO [root] [api_app.py (__init__:21] - 正在初始化频道新闻推荐url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-13 17:52:00,423 INFO [root] [api_app.py (api_app_login:32] - 正在调用APP的登录的方法，手机号：13812345678验证码246810
+2020-01-13 17:52:00,453 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.sSl0ZABnWV93GdRAf5SWWRQsPuKApAI0Q8gCV8PER9Y
+2020-01-13 17:52:00,463 INFO [root] [api_app.py (api_app_search:45] - 正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578909120, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MTY0MTksInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.sSl0ZABnWV93GdRAf5SWWRQsPuKApAI0Q8gCV8PER9Y'}
+2020-01-13 20:38:55,393 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 20:38:55,393 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 20:38:55,393 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:38:55,973 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json'}
+2020-01-13 20:38:56,353 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 20:38:56,353 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:38:56,353 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:38:56,353 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:38:56,874 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:38:57,341 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [None], 'status': 2}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:38:57,793 INFO [root] [api_app.py (__init__:18] - 正在初始化APP登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-13 20:38:57,793 INFO [root] [api_app.py (__init__:21] - 正在初始化频道新闻推荐url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-13 20:38:57,795 INFO [root] [api_app.py (api_app_login:32] - 正在调用APP的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:38:58,210 INFO [root] [api_app.py (api_app_search:45] - 正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578919138, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json'}
+2020-01-13 20:39:21,444 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 20:39:21,445 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 20:39:21,446 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:39:22,089 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json'}
+2020-01-13 20:39:22,490 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 20:39:22,490 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:39:22,490 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:39:22,490 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:39:22,920 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:39:23,365 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [None], 'status': 2}请求信息头为：{'Content-Type': 'application/json'}
+2020-01-13 20:39:23,809 INFO [root] [api_app.py (__init__:18] - 正在初始化APP登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-13 20:39:23,809 INFO [root] [api_app.py (__init__:21] - 正在初始化频道新闻推荐url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-13 20:39:23,811 INFO [root] [api_app.py (api_app_login:32] - 正在调用APP的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:39:24,279 INFO [root] [api_app.py (api_app_search:45] - 正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578919164, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json'}
+2020-01-13 20:40:13,647 INFO [root] [api_mp.py (__init__:14] - 正在初始化自媒体登录url：http://ttapi.research.itcast.cn/mp/v1_0/authorizations
+2020-01-13 20:40:13,657 INFO [root] [api_mp.py (__init__:17] - 正在初始化发布文章url：http://ttapi.research.itcast.cn/mp/v1_0/articles
+2020-01-13 20:40:13,657 INFO [root] [api_mp.py (api_mp_login:28] - 正在调用自媒体的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:40:13,837 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.AUUpDHpZV5j2nUJjuXEh9FLbpjGYZDYTB4uS3YI3gHs
+2020-01-13 20:40:13,847 INFO [root] [api_mp.py (api_mp_article:46] - 正在调用自媒体发布文章的方法，发布的数据是：{'title': '55555', 'content': '55555', 'channel_id': '7', 'cover': {'type': 0, 'images': []}}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.AUUpDHpZV5j2nUJjuXEh9FLbpjGYZDYTB4uS3YI3gHs'}
+2020-01-13 20:40:14,698 INFO [root] [api_mis.py (__init__:18] - 正在初始化管理员登录的url：http://ttapi.research.itcast.cn/mis/v1_0/authorizations
+2020-01-13 20:40:14,698 INFO [root] [api_mis.py (__init__:22] - 正在初始化查询的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:40:14,698 INFO [root] [api_mis.py (__init__:26] - 正在初始化审核的url：http://ttapi.research.itcast.cn/mis/v1_0/articles
+2020-01-13 20:40:14,698 INFO [root] [api_mis.py (api_mis_login:37] - 管理员登录成功，数据为：{'account': 'testid', 'password': 'testpwd123'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTEsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlLCJ2ZXJpZmllZCI6dHJ1ZX0.AUUpDHpZV5j2nUJjuXEh9FLbpjGYZDYTB4uS3YI3gHs'}
+2020-01-13 20:40:14,828 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.ikYg27KFVRobdyuFYHVWAzqIeHj_A1KcfH6DKWed9XA
+2020-01-13 20:40:14,848 INFO [root] [api_mis.py (api_mis_search:48] - 查询文章，数据为：{'title': '55555', 'channel': '数据库'}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.ikYg27KFVRobdyuFYHVWAzqIeHj_A1KcfH6DKWed9XA'}
+2020-01-13 20:40:15,318 INFO [root] [api_mis.py (api_mis_audit:59] - 审核文章，数据为：{'article_ids': [1216701901265960960], 'status': 2}请求信息头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTMsImFkbWluaXN0cmF0b3JfaWQiOjIsInJlZnJlc2giOmZhbHNlfQ.ikYg27KFVRobdyuFYHVWAzqIeHj_A1KcfH6DKWed9XA'}
+2020-01-13 20:40:15,398 INFO [root] [api_app.py (__init__:18] - 正在初始化APP登录url：http://ttapi.research.itcast.cn/app/v1_0/authorizations
+2020-01-13 20:40:15,398 INFO [root] [api_app.py (__init__:21] - 正在初始化频道新闻推荐url：http://ttapi.research.itcast.cn/app/v1_1/articles
+2020-01-13 20:40:15,398 INFO [root] [api_app.py (api_app_login:32] - 正在调用APP的登录的方法，手机号：13812345678验证码246810
+2020-01-13 20:40:15,428 INFO [root] [tools_inter.py (get_token:18] - 正在调用get_token()方法，取到的token是：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.T2G21lplqt5PY-IJCnMa2Wc9m_lDrZgcEvRRtQIeGkI
+2020-01-13 20:40:15,438 INFO [root] [api_app.py (api_app_search:45] - 正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578919215, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.T2G21lplqt5PY-IJCnMa2Wc9m_lDrZgcEvRRtQIeGkI'}

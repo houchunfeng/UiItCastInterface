@@ -1,0 +1,1 @@
+api_app.py                  45 INFO     正在调用APP搜索的方法，发布的数据是：{'channel_id': 7, 'timestamp': 1578919215, 'with_top': 1}请求头数据为：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1Nzg5MjY1MTUsInVzZXJfaWQiOjEyMDY3NTU2NTMzNjA1NDk4ODgsInJlZnJlc2giOmZhbHNlfQ.T2G21lplqt5PY-IJCnMa2Wc9m_lDrZgcEvRRtQIeGkI'}
